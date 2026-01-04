@@ -39,7 +39,7 @@ local palette = {
 local highlights = {
   -- General UI highlights
   Normal = { fg = palette.foreground, bg = palette.background },
-  Cursor = { fg = palette.foreground, bg = palette.cursorColor },
+  Cursor = { fg = palette.foreground, bg = palette.cursorColor, nocombine = true },
   LineNr = { fg = palette.brightBlack, bg = "none" },
   StatusLine = { fg = palette.foreground, bg = palette.black },
   StatusLineNC = { fg = palette.brightBlack, bg = palette.background },
