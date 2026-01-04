@@ -67,7 +67,7 @@ local highlights = {
   ModeMsg = { fg = palette.green, bg = "none" },
   Question = { fg = palette.cyan, bg = "none" },
   WarningMsg = { fg = palette.yellow, bg = "none" },
-  Conseal = { fg = palette.black, bg = "none" },
+  Conceal = { fg = palette.foreground, bg = "none" },
   PmenuThumb = { fg = palette.black, bg = palette.blue },
   QuickFixLine = { fg = palette.black, bg = palette.blue },
   WinBar = { fg = palette.black, bg = palette.darkBlack },
