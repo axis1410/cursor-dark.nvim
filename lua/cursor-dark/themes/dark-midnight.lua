@@ -39,7 +39,9 @@ local palette = {
 local highlights = {
   -- General UI highlights
   Normal = { fg = palette.foreground, bg = palette.background },
-  Cursor = { fg = palette.foreground, bg = palette.cursorColor, nocombine = true },
+  Cursor = { style = "reverse,nocombine" },
+  TermCursor = { style = "reverse,nocombine" },
+  lCursor = { style = "reverse,nocombine" },
   LineNr = { fg = palette.brightBlack, bg = "none" },
   StatusLine = { fg = palette.foreground, bg = palette.black },
   StatusLineNC = { fg = palette.brightBlack, bg = palette.background },

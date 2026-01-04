@@ -62,7 +62,9 @@ endfunction
 
 " --- UI Highlights ---
 call s:setGuiColor("Normal", { "fg": s:foreground, "bg": s:background })
-call s:setGuiColor("Cursor", { "fg": s:foreground, "bg": s:cursorColor, "gui": "nocombine" })
+call s:setGuiColor("Cursor", { "gui": "reverse,nocombine" })
+call s:setGuiColor("TermCursor", { "gui": "reverse,nocombine" })
+call s:setGuiColor("lCursor", { "gui": "reverse,nocombine" })
 call s:setGuiColor("LineNr", { "fg": s:brightBlack, "bg": s:background })
 call s:setGuiColor("StatusLine", { "fg": s:foreground, "bg": s:black })
 call s:setGuiColor("StatusLineNC", { "fg": s:brightBlack, "bg": s:background })
